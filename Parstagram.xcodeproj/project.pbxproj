@@ -14,6 +14,8 @@
 		D6679EC92408C5A400AFB570 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6679EC82408C5A400AFB570 /* FeedViewController.swift */; };
 		D6679ECB2408D10F00AFB570 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6679ECA2408D10F00AFB570 /* CameraViewController.swift */; };
 		D6679ECD2408E1E000AFB570 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6679ECC2408E1E000AFB570 /* PostCell.swift */; };
+		D6679ECF2408F46C00AFB570 /* Launch Screen two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6679ECE2408F46C00AFB570 /* Launch Screen two.storyboard */; };
+		D6A664AA2411C36E00D6F41D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A664A92411C36E00D6F41D /* CommentCell.swift */; };
 		D6CBF6652408BD2100420938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBF6642408BD2100420938 /* AppDelegate.swift */; };
 		D6CBF6672408BD2100420938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBF6662408BD2100420938 /* SceneDelegate.swift */; };
 		D6CBF66C2408BD2100420938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CBF66A2408BD2100420938 /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		D6679EC82408C5A400AFB570 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D6679ECA2408D10F00AFB570 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D6679ECC2408E1E000AFB570 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D6679ECE2408F46C00AFB570 /* Launch Screen two.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen two.storyboard"; sourceTree = "<group>"; };
+		D6A664A92411C36E00D6F41D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D6CBF6612408BD2100420938 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBF6642408BD2100420938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CBF6662408BD2100420938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				D6679EC82408C5A400AFB570 /* FeedViewController.swift */,
 				D6679ECA2408D10F00AFB570 /* CameraViewController.swift */,
 				D6679ECC2408E1E000AFB570 /* PostCell.swift */,
+				D6679ECE2408F46C00AFB570 /* Launch Screen two.storyboard */,
+				D6A664A92411C36E00D6F41D /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6679ECF2408F46C00AFB570 /* Launch Screen two.storyboard in Resources */,
 				D6CBF6712408BD2500420938 /* LaunchScreen.storyboard in Resources */,
 				D6CBF66E2408BD2500420938 /* Assets.xcassets in Resources */,
 				D6CBF66C2408BD2100420938 /* Main.storyboard in Resources */,
@@ -422,6 +429,7 @@
 				D6679EC92408C5A400AFB570 /* FeedViewController.swift in Sources */,
 				D6CBF6672408BD2100420938 /* SceneDelegate.swift in Sources */,
 				D6679ECD2408E1E000AFB570 /* PostCell.swift in Sources */,
+				D6A664AA2411C36E00D6F41D /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
